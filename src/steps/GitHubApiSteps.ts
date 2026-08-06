@@ -67,7 +67,7 @@ export class GitHubApiSteps {
     return items.map((item) => ({
       title: item.title,
       createdAt: item.created_at,
-      author: item.user?.login
+      author: item.user.login
     }));
   }
 
