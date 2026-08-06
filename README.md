@@ -10,9 +10,8 @@ npx playwright install
 ## Environment Variables
 
 - `TARGET_ENV=local|staging|production`
-- `BROWSERS=chromium,firefox,webkit` (optional)
-- `GITHUB_TOKEN=...` (optional)
-- `GITHUB_REPO=owner/repo` (optional)
+- `BROWSERS=chromium,firefox,webkit`
+- `GITHUB_TOKEN=...` 
 
 Test credentials are loaded from environment variables (no hardcoded passwords in repo).
 
